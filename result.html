@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Results</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts\font-awesome-4.7.0\css\font-awesome.min.css' %}">
+
+	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					The Result is:
+				</span>
+
+				<span class="contact100-form-text">
+					{{ result }}
+				</span>
+
+			</form>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p class="footer-text-left"> © 2022 Copyright:Team RCET </p>
+	
+		<div class="footer-content-right">
+  		<a href="" target="_blank"><img src="{% static 'images/linkedin.png' %}" class="icon-style" alt="Linkedin icon"></a>
+		</div>
+		<div class="footer-content-right">
+  		<a href="" target="_blank"><img src="{% static 'images/instagram.png' %}" class="icon-style" alt="Instagram icon"></a>
+		</div>
+	</div>
+
+</body>
+
